@@ -21,9 +21,9 @@ import java.sql.Connection;
  */
 public class Config {
     private String driverClass = "com.mysql.cj.jdbc.Driver";
-    private String url = "jdbc:mysql://106.13.87.102:3306/learner?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true";
+    private String url = "jdbc:mysql://localhost/learner?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=true";
     private String username = "root";
-    private String password = "lizza@123";
+    private String password = "123456";
 
     public SqlSessionFactory getSqlSessionFactory(String packageName){
         // 1.数据源

@@ -36,9 +36,9 @@ public class StudentService {
     public static void main(String[] args){
         DataSource dataSource = new PooledDataSource(
                 "com.mysql.jdbc.Driver",
-                "jdbc:mysql://106.13.87.102:3306/learner",
+                "jdbc:mysql://localhost/learner",
                 "root",
-                "lizza@123");
+                "123456");
         TransactionFactory transactionFactory = new JdbcTransactionFactory();
         Environment environment = new Environment("development", transactionFactory, dataSource);
         Configuration configuration = new Configuration(environment);

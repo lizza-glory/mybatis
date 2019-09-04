@@ -11,9 +11,9 @@ public class JDBC {
 
     public static void main(String[] args){
         String driverClass = "com.mysql.jdbc.Driver";
-        String url = "jdbc:mysql://106.13.87.102:3306/learner";
+        String url = "jdbc:mysql://localhost/learner";
         String username = "root";
-        String password = "lizza@123";
+        String password = "123456";
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         ResultSet resultSet = null;
